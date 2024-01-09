@@ -1,0 +1,32 @@
+@import url('remixicon/fonts/remixicon.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgb(127, 127, 127);
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+::-webkit-scrollbar {
+    width: 0.6rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(127, 127, 127);
+    border-radius: 0.1rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
